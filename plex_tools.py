@@ -5,7 +5,7 @@ import subprocess,shlex
 from tinytag import TinyTag
 from plexapi.myplex import MyPlexAccount
 
-account = MyPlexAccount('andrei.raceala@gmail.com', '99moresecure11')
+account = MyPlexAccount('', '')
 plex = account.resource('DESKTOP-1').connect()  # returns a PlexServer instance
 movies = plex.library.section('Porn')
 for video in movies.search():
